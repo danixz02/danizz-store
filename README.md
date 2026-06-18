@@ -179,4 +179,4 @@ O seed automático cria um usuário admin com:
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
 
-Desenvolvido com ❤️ por Danizz
+Desenvolvido com ❤️ por Danixz
