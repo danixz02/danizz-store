@@ -1,0 +1,41 @@
+.filter-product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 32px;
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+.filter-button {
+    padding: 10px 18px;
+    border: 1px solid #F43245;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #F43245;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-button:hover,
+.filter-button.active {
+    background-color: #F43245;
+    color: #fff;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .filter-button {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .filter-product {
+        gap: 8px;
+        margin-bottom: 24px;
+        margin-top: 8px;
+        margin-left: 18px;
+    }
+}

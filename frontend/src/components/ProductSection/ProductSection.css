@@ -1,0 +1,27 @@
+.product-section {
+    padding: 36px;
+    height: fit-content;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .product-list {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .product-card {
+        width: 100%;
+    }
+    
+    .product-section {
+        padding: 16px;
+    }
+}
