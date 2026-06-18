@@ -11,7 +11,7 @@ export function Footer() {
         <div className="footer-menus">
             <p>Menu</p>
             <span className="footer-links">
-                <a>
+                <a href="https://danizz-store.vercel.app/">
                  Início
           </a>
                 <a href="https://www.youtube.com/@dan1zzyt?sub_confirmation=1">Youtube</a>
