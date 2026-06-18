@@ -1,8 +1,8 @@
 # Danizz Store
 
-Uma aplicação full-stack de e-commerce moderna com painel administrativo para gestão de produtos e categorias.
+Uma aplicação full-stack de uma loja de afiliados moderna com painel administrativo para gestão de produtos e categorias.
 
-## 🚀 Tecnologias
+## Tecnologias
 
 ### Backend
 - **Node.js** - Runtime JavaScript
@@ -20,7 +20,7 @@ Uma aplicação full-stack de e-commerce moderna com painel administrativo para 
 - **React Router DOM** - Roteamento
 - **CSS** - Estilização
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Autenticação de Usuários**
   - Login seguro com JWT
@@ -44,13 +44,13 @@ Uma aplicação full-stack de e-commerce moderna com painel administrativo para 
   - Filtros por categoria
   - Design responsivo
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 - Node.js (v18 ou superior)
 - MongoDB (local ou Atlas)
 - npm ou yarn
 
-## 🔧 Instalação
+## Instalação
 
 ### 1. Clone o repositório
 ```bash
@@ -77,7 +77,7 @@ cd ../frontend
 npm install
 ```
 
-## 🎯 Execução
+## Execução
 
 ### Iniciar o Backend
 ```bash
@@ -93,7 +93,7 @@ npm run dev
 ```
 A aplicação estará disponível em `http://localhost:5173`
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 danizz-store/
@@ -132,18 +132,18 @@ danizz-store/
 └── .gitignore
 ```
 
-## 🔐 Autenticação
+## Autenticação
 
 A aplicação utiliza JWT para autenticação. Ao fazer login, um token é gerado e deve ser enviado no header `Authorization` para acessar rotas protegidas.
 
 ### Credenciais Padrão
 O seed automático cria um usuário admin com:
-- **Email:** admin@danizz.com
+- **Email:** admin@gmail.com
 - **Senha:** admin123
 
 > ⚠️ **Importante:** Altere essas credenciais em produção!
 
-## 🛠️ API Endpoints
+## API Endpoints
 
 ### Autenticação
 - `POST /api/auth/login` - Login do usuário
@@ -163,7 +163,7 @@ O seed automático cria um usuário admin com:
 - `PUT /api/categorias/:id` - Atualizar categoria (admin)
 - `DELETE /api/categorias/:id` - Deletar categoria (admin)
 
-## 📝 Scripts Disponíveis
+## Scripts Disponíveis
 
 ### Backend
 - `npm start` - Inicia o servidor em produção
@@ -175,14 +175,8 @@ O seed automático cria um usuário admin com:
 - `npm run preview` - Preview do build de produção
 - `npm run lint` - Executa o linter
 
-## 🤝 Contribuindo
+## Contribuindo
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
-
-## 📄 Licença
-
-Este projeto está sob a licença ISC.
-
----
 
 Desenvolvido com ❤️ por Danizz
