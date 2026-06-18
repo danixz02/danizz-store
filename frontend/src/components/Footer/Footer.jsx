@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import logoFooter from "../../assets/imagens/logo-branca.png";
 import "./Footer.css";
 export function Footer() {
