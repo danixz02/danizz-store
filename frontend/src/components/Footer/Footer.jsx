@@ -11,18 +11,7 @@ export function Footer() {
         <div className="footer-menus">
             <p>Menu</p>
             <span className="footer-links">
-                <a
-            className="nav-itens"
-            onClick={handleCardClick}
-            tabIndex="0"
-            role="link"
-            onKeyDown={(event) => {
-              if (event.key === "Enter") {
-                handleCardClick();
-              }
-            }}
-            style={{ cursor: "pointer" }}
-          >
+                <a>
                  Início
           </a>
                 <a href="https://www.youtube.com/@dan1zzyt?sub_confirmation=1">Youtube</a>
