@@ -11,7 +11,8 @@ export function Footer() {
         <div className="footer-menus">
             <p>Menu</p>
             <span className="footer-links">
-                <a className="nav-itens"
+                <a
+            className="nav-itens"
             onClick={handleCardClick}
             tabIndex="0"
             role="link"
@@ -20,7 +21,10 @@ export function Footer() {
                 handleCardClick();
               }
             }}
-            style={{ cursor: "pointer" }}>Início</a>
+            style={{ cursor: "pointer" }}
+          >
+                 Início
+          </a>
                 <a href="https://www.youtube.com/@dan1zzyt?sub_confirmation=1">Youtube</a>
                 <a href="https://www.instagram.com/dan1zz_yt">Instagram</a>
             </span>
